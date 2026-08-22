@@ -61,8 +61,6 @@ Não apaga nem renomeia nada — só imprime no terminal o que aconteceria. Reco
 --renomear "PADRAO"
 Renomeia cada arquivo processado usando um padrão com {n} (número sequencial, começando em 1, na ordem em que os arquivos foram encontrados).
 
-Exemplos de padrão: | Padrão | Resultado | |---|---| | "Faixa {n}" | Faixa 1.mp3, Faixa 2.mp3, ... | | "Faixa {n:03d}" | Faixa 001.mp3, Faixa 002.mp3, ... | | "Rhyan CDs - {n:02d}" | Rhyan CDs - 01.mp3, Rhyan CDs - 02.mp3, ... |
-
 ⚠️ A numeração é global: se usar --recursivo, ela não reinicia a cada subpasta, continua contando em sequência por todos os arquivos encontrados.
 
 ⚠️ Se já existir um arquivo com o nome de destino, o script pula a renomeação daquele arquivo (evita sobrescrever por engano) e avisa no terminal.
